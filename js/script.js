@@ -1,6 +1,6 @@
 var A = 1;
-var B = 2;
-var C = 3;
+var B = 5;
+var C = 10;
 
 function countNumber(a, b, c) {
     a = A;
