@@ -1,20 +1,14 @@
 var A = 12;
 var B = 63;
-var C = 89;
 
 function countNumber(a, b, c) {
     a = A;
     b = B;
-    c = C;
 
     if (a > b) {
-        if (a > c) {
-            console.log(a + ' > ' + b + ' и ' + c);
-        } else {
-            console.log(c + ' > ' + b + ' и ' + a);
-        }
+        console.log(a + ' > ' + b);
     } else {
-        console.log(b + ' > ' + a + ' и ' + c);
+        console.log(a + ' < ' + b);
     }
 };
 countNumber();
