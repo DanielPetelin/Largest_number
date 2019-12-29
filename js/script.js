@@ -7,9 +7,11 @@ function countNumber(a, b, c) {
     b = B;
 
     if (a > b) {
-        console.log(a + ' > ' + b);
-    } else {
-        console.log(a + ' < ' + b);
+        if (a > c) {
+            console.log(a + ' > ' + b + ' и ' + c);
+        } else {
+            console.log(c + ' > ' + b + ' и ' + a);
+        }
     }
 };
 countNumber();
