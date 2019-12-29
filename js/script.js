@@ -1,6 +1,6 @@
-var A = 12;
-var B = 63;
-var C = 134;
+var A = 1;
+var B = 2;
+var C = 3;
 
 function countNumber(a, b, c) {
     a = A;
@@ -8,9 +8,15 @@ function countNumber(a, b, c) {
     c = C;
 
     if (a > b) {
-        console.log(a + ' > ' + b);
+        if (a > c) {
+            console.log(a + ' > ' + b + ' и ' + c);
+        } else {
+            console.log(c + ' > ' + b + ' и ' + a);
+        }
+    } else if (b > c) {
+        console.log(b + ' > ' + c + ' и ' + a);
     } else {
-        console.log(a + ' < ' + b);
+        console.log(c + ' > ' + b + ' и ' + a);
     }
 };
 countNumber();
