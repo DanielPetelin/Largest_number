@@ -12,6 +12,8 @@ function countNumber(a, b, c) {
         } else {
             console.log(c + ' > ' + b + ' и ' + a);
         }
+    } else {
+        console.log(b + ' > ' + a + ' и ' + a);
     }
 };
 countNumber();
