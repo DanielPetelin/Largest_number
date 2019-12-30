@@ -1,7 +1,8 @@
 <h1>Ребята, код ниже!👨🏻‍💻</h1>
 <h3>HTML</h3>
 
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,8 @@
 ```
 <h3>JavaScript</h3>
 
-```var A = 1;
+```
+var A = 1;
 var B = 5;
 var C = 10;
 
